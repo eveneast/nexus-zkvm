@@ -115,7 +115,7 @@ pub enum ParserError {
     #[error(transparent)]
     Utf8Error(#[from] std::str::Utf8Error),
 
-    /// An issue occured interacting with the filesystem.
+    /// An issue occurred interacting with the filesystem.
     #[error(transparent)]
     IOError(#[from] std::io::Error),
 

@@ -109,7 +109,7 @@ impl MachineChip for SltChip {
 
         // modulus for 8-bit limbs
         let modulus = E::F::from(256u32.into());
-        // modulues for 7-bit
+        // modulus for 7-bit
         let modulus_7 = E::F::from(128u32.into());
 
         // Reusing the CarryFlag as borrow flag.
